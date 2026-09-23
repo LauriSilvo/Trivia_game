@@ -1,0 +1,151 @@
+.containa{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction:row;
+        background-color: rgb(222, 224, 224);
+        font-size: larger;
+        width: 100%;
+        height: 80px;
+        padding-top: 15px;
+        padding-left: 50px;
+        padding-right: 30px; 
+}
+
+.teksti1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: double;
+    
+    
+}
+
+.teksti2{
+    text-decoration: underline;
+    margin-left: auto;
+    font-size: 23px;
+    padding-top: 8px;
+
+    color: rgb(46, 10, 255);
+}
+    
+.laatikko{
+width: 200px;
+height: 190px;
+margin-left: 120px;
+margin-top: 90px;
+align-items: center;
+}
+.header{
+    font-size: 55px;
+    font-family:serif
+}
+.nappula{
+    background-color: rgb(3, 3, 3);
+    margin-top: 15px;
+    padding: 15px;
+    width: 150px;
+    height: 65px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.category_txt{
+    color: brown;
+    background-color: brown;
+}
+.category_txt{
+
+        font-size: 40px;
+        padding-left: 60px;
+        padding-top: 30px;
+        
+    }
+.kirjaudu_txt{
+    font-size: 20px;
+
+}
+
+.nim{
+    color: black;
+}
+.sala{
+        color: black;
+        border-color: blueviolet;
+        border: green;
+}
+
+.alotus{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 70px;
+    max-width: 20%;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-style:initial
+    
+    
+}
+.label-font{
+    font-size: 18px;
+    padding-top: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 5px;
+    
+    
+}
+.opettaja-txt{
+    font-family:monospace
+}
+
+.selekti select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    
+    font-size: 24px;
+    border: 2px solid black;
+}
+.opet{
+    color: #241b1b;
+    font-size: 10px;
+}
+.opet:has(option:checked:not([disabled])) {
+    color: #0f0d0d;
+    font-size: 19px;
+}
+
+
+.option .opet{
+    color:black
+    
+}
+.parag{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.labelli{
+    font-size: 17px;
+    padding-left: 8px;
+}
+.aloita_b{
+    display: block;
+
+    background-color: rgb(102, 102, 102);
+    color: white;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    padding-left: 39px;
+    height: 70px;
+    width: 190px;
+    margin-top: 20px;
+    font-size: 25px;
+
+    
+
+}
+
