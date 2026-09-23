@@ -10,8 +10,8 @@ use App\Models\Category;
 Route::get('/peli', [TeacherController::class, 'index']);
 
 Route::get('/opettajat/{teacher}/kategoriat', function ($teacher){
-    Category::where('teacher_id', $teacher)
-    return Category::where($teacher = User::limit(pituus))
+    return Category::where('teacher_id', $teacher)
+    
     ->get(['teacher_id', 'name']);
 });
 
